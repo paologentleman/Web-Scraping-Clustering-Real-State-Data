@@ -29,7 +29,6 @@ To check this, we use the ***Jaccard-Similarity*** to measure the similarity bet
 #### Word cloud of house descriptions
 With this last output we also create [wordcloud](https://www.datacamp.com/community/tutorials/wordcloud-python) for each couple of clusters. The words that will be represented are those extracted from the description of the houses that are in the relative couple.
 
-![alt text](https://1sd06y38jhbh1xhqve6fqmc1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/fallingwater-1440x640.jpg "Logo Title Text 2")
 
 ____ 
 
