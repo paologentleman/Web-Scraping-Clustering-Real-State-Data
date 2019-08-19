@@ -2,7 +2,7 @@
 
 In this project we will perform a clustering analysis of house announcements in Rome from Immobiliare.it.
 
-![alt text](https://directionscu.org/wp-content/uploads/2018/08/cashforhome.png "Logo Title Text 1")
+![alt text](https://1sd06y38jhbh1xhqve6fqmc1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/fallingwater-1440x640.jpg "Logo Title Text 1")
 
 ____ 
 
