@@ -30,4 +30,38 @@ To check this, we use the ***Jaccard-Similarity*** to measure the similarity bet
 #### Word cloud of house descriptions
 With this last output we also create [wordcloud](https://www.datacamp.com/community/tutorials/wordcloud-python) for each couple of clusters. The words that will be represented are those extracted from the description of the houses that are in the relative couple.
 
-<div style="text-align:center"><img src ="https://d791hlskfkbjh.cloudfront.net/7731287/980x.jpg" /></div>
+____ 
+
+## The Files
+
+**Final Notebook.ipynb**:
+
+The Jupyter notebook which contains the key steps of our work and where we explain each decision we have made analyzing them. It shows our outcomes and our results with comments.
+
+**scraping.py**:
+
+Module which contains the functions that scrape the information from the website www.immobiliare.it. Informations are stored into a csv file with path 'data/raw_data.csv'.
+
+**preprocessing.py**
+
+Module which contains the functions used to preprocess the raw data. The preprocessed dataframe will be stored into the csv file under the path 'data/data_preprocessed.csv'.
+
+**matrix_generator.py**
+
+Module which has the functions used to compute the two matrixes.
+
+**k_means.py**
+
+This set of functions are responsable to compute the clustering part using the kmeans++ algorithm with sklearn library.
+
+**Word_cloud_lib.py**
+
+Package of functions used for the Jaccard Similarity and for rendering the wordcloud frames.
+
+**data/**
+
+Folder directory which contains all the data that we used/elaborated in this homework
+
+- raw_data.csv 
+- data_preprocessed.csv
+- vocabulary.pkl (pikle (binary) format to store the dictionary of stemmed words)
